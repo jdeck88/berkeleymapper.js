@@ -1,6 +1,6 @@
 # berkeleymapper.js
 
-With the advent of better javascript libs for handling mapping and geoprocessing, it is now feasible to create a pure javascript implementation of Berkeleymapper that can be easily embedded in calling web sites.  This change will give calling sites more options for integrating the features of berkeleymapper while eliminiting much of the overhead in maintaining a standalone website.  In addition, we propose to bundle additional graphing and charting functions to work with datasets, expanding the available features.  
+With the advent of better javascript libs for mapping and geoprocessing, it is now feasible to create a pure javascript implementation of Berkeleymapper that can be easily embedded in calling web sites.  This change will give calling sites more options for integrating the features of berkeleymapper while eliminiting much of the overhead in maintaining a standalone website.  In addition, we propose to bundle additional graphing and charting functions to work with datasets, expanding the available features.  
 
 Following is an example of how berkeleymapper.js will be called from a web-page:
 
