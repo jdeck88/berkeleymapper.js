@@ -1,12 +1,13 @@
 # berkeleymapper.js
 
-A proposed 100% javascript implementation for berkeleymapper.   Berkeleymapper currently runs as an installed java application.  Anyone can call Berkeleymapper with a configuration file and tab delimited text file, and the application creates a session for the user in a new browser window.  The issue with this is that there is alot of overhead in running and maintaining the application. Also, requiring spawning the application in a new browser window puts limits on implementations.  With the advent of better javascript libs for handling mapping functions it is now feasible to create a javascript library that can be easily embedded in calling web sites.  This gives sites more power for integration and adoption of Berkeleymapper.
+With the advent of better javascript libs for handling mapping and geoprocessing, it is now feasible to create a pure javascript implementation of Berkeleymapper that can be easily embedded in calling web sites.  This change will give calling sites more options for integrating the features of berkeleymapper while eliminiting much of the overhead in maintaining a standalone website.  In addition, we propose to bundle additional graphing and charting functions to work with datasets, expanding the available features.  
 
-Following is an example of how we can call berkeleymapper.js:
+Following is an example of how berkeleymapper.js will be called from a web-page:
+
 ```
 <head>
-  <link rel="stylesheet" href="ROOT_URL/berkeleymapper.css">
-  <script src="ROOT_URL/berkeleymapper.js"></script>
+  <link rel="stylesheet" href="URL_ROOT/berkeleymapper.css">
+  <script src="URL_ROOT/berkeleymapper.js"></script>
 </head>
 <body>
    <div id="mapid" style="width: 600px; height: 400px;"></div>
