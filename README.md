@@ -12,7 +12,9 @@ Following is an example of how we can call berkeleymapper.js  (NOTE that we borr
    <div id="mapid" style="width: 600px; height: 400px;"></div>
 </body>
 <script>
-  var mymap = B.map('mapid').init('REMOTE_TABFILE','REMOTE_CONFIGFILE');  
+  // The datafile can be something we already have in Javascript memory, or can 
+  // be a pointer to a remote URL
+  var mymap = B.map('mapid').init('DATAFILE','CONFIGFILE');  
 </script>
 ```
 
